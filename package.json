@@ -11,7 +11,8 @@
   "dependencies": {
     "@hono/node-server": "^1.11.1",
     "@vercel/kv": "^1.0.1",
-    "hono": "^4.3.7"
+    "hono": "^4.3.7",
+    "hono-do": "^2.0.0"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.7.3",

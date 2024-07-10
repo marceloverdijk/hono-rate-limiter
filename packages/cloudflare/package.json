@@ -24,6 +24,9 @@
   "bugs": {
     "url": "https://github.com/rhinobase/hono-rate-limiter/issues"
   },
+  "dependencies": {
+    "hono-do": "^2.0.0"
+  },
   "peerDependencies": {
     "hono": "^4.4.8"
   },

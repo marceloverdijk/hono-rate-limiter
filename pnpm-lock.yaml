@@ -17,6 +17,9 @@ importers:
       hono:
         specifier: ^4.3.7
         version: 4.4.7
+      hono-do:
+        specifier: ^2.0.0
+        version: 2.0.0
     devDependencies:
       '@biomejs/biome':
         specifier: ^1.7.3
@@ -5960,6 +5963,12 @@ packages:
     resolution: {integrity: sha512-QFLV0taWQOZtvIRIAdBChesmogZrtuXvVWsFHZTk2SU+anspqZ2vMnoLg7IE1+Uk16N19APic1BuF8bC8c2m5g==}
     engines: {node: '>=8'}
     dev: true
+
+  /hono-do@2.0.0:
+    resolution: {integrity: sha512-A/nk3hQ8y3jV9TPmmGd5a4bSTeOtPwScedAan4nGbfIdePSxTebvx7bF6s7BdPmTmTp/dMN3P3ZOsaaORHo99Q==}
+    dependencies:
+      hono: 4.4.11
+    dev: false
 
   /hono-rate-limiter@0.2.3(hono@4.4.11):
     resolution: {integrity: sha512-/pQIJWMd8saoySMoM3rhHNiC3XtZuZDkxBvtnPmRKrpNBZIG38k0cs+nVmBW5pc8HAmkS+I/14rbHfRObekWmw==}
